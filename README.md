@@ -74,12 +74,6 @@ I care about **clean architecture**, **great user experience**, and **shipping t
 
 ---
 
-### Activity graph
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gs-imak&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
 ### Snake eating my contributions
 
 <picture>
