@@ -13,16 +13,32 @@
 
 ---
 
-### About me
+<h3 align="center">About me</h3>
 
-```yaml
-name: George S.
-role: Freelance Full-Stack Developer
-location: Paris, France
-focus: Web applications, mobile experiences, digital products
-currently_building: Client projects & personal ventures
-available_for: Freelance opportunities & collaborations
-```
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/Role-Freelance%20Full--Stack%20Developer-6C63FF?style=for-the-badge" />
+<br><br>
+<img src="https://img.shields.io/badge/Based%20in-Paris%2C%20France-1a1b27?style=for-the-badge&logo=googlemaps&logoColor=white" />
+<br><br>
+<img src="https://img.shields.io/badge/Focus-Web%20%26%20Mobile%20Apps-1a1b27?style=for-the-badge&logo=react&logoColor=61DAFB" />
+
+</td>
+<td width="50%" valign="top">
+
+I design and build **web applications**, **mobile experiences**, and **digital products** for clients and personal ventures.
+
+I care about **clean architecture**, **great user experience**, and **shipping things that work** — on time.
+
+**Open to freelance opportunities & collaborations.**
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
@@ -39,35 +55,21 @@ available_for: Freelance opportunities & collaborations
 ### GitHub stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=gs-imak&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=gs-imak&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gs-imak&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gs-imak&theme=tokyonight&utcOffset=1" />
 </div>
 
 <br>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gs-imak&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gs-imak&theme=tokyonight&utcOffset=1" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gs-imak&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gs-imak&theme=tokyonight" />
 </div>
 
----
-
-### Trophies
+<br>
 
 <div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=gs-imak&theme=tokyonight&no-frame=true&no-bg=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-### Featured project
-
-<div align="center">
-  <a href="https://github.com/gs-imak/book-swipe">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gs-imak&repo=book-swipe&theme=tokyonight&hide_border=true" />
-  </a>
+  <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gs-imak&theme=tokyonight" />
 </div>
 
 ---
