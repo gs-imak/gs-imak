@@ -140,7 +140,7 @@ export function render(d, theme) {
   });
 
   // footnote
-  body += text(fonts.mono, `Mis à jour le ${frDate(d.generatedAt)} · ${d.pullRequests} pull requests · ${d.repos} dépôts sur les 12 derniers mois`, 28, 222, 11, { fill: theme.faint }).svg;
+  body += text(fonts.mono, `Mis à jour le ${frDate(d.generatedAt)} · dépôts publics et privés confondus`, 28, 222, 11, { fill: theme.faint }).svg;
 
   return svgDoc(W, H, `<defs>${p.defs}</defs>${body}`, {
     title: `Activité GitHub : ${fr(d.year)} contributions sur 12 mois, ${fr(d.last30)} sur 30 jours, ${d.activeDays30} jours actifs sur 30, ${d.streak} jours d'affilée.`,
