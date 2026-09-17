@@ -1,11 +1,12 @@
 // Renders the "En ce moment" activity card from live GitHub data.
 // Run: GH_TOKEN=<token> node scripts/activity.mjs   (falls back to `gh auth token` locally)
 //
-// With a fine-grained token that can read the private repos (ACTIVITY_TOKEN in the repo secrets)
-// the language split covers every owned repo; with the Actions GITHUB_TOKEN it covers public
-// repos only. The contribution calendar includes private counts either way, because the profile
-// setting "include private contributions" is on.
-import { writeFileSync, mkdirSync } from 'node:fs';
+// The contribution numbers include private repos whatever the token, because the profile setting
+// "include private contributions" is on. The language split needs a token that can read the
+// private repos: run locally with `gh` (repo scope) it is complete; in the Action, where only the
+// public repos are visible, KEEP_LANGUAGES=1 makes it reuse the split from the last committed
+// data/activity.json instead of overwriting it with a public-only one.
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import { fonts, THEMES, ACCENT, text, rect, svgDoc, panel } from './lib/svg.mjs';
 
@@ -64,6 +65,9 @@ export async function collect() {
   const languages = Object.entries(bytes).sort((a, b) => b[1] - a[1]).slice(0, 4)
     .map(([name, b]) => ({ name, pct: Math.round((100 * b) / total) }));
 
+  const dataFile = new URL('../data/activity.json', import.meta.url);
+  const previous = process.env.KEEP_LANGUAGES && existsSync(dataFile) ? JSON.parse(readFileSync(dataFile, 'utf8')) : null;
+
   return {
     generatedAt: new Date().toISOString(),
     year: cc.contributionCalendar.totalContributions,
@@ -73,7 +77,8 @@ export async function collect() {
     weeks, weekStart,
     pullRequests: cc.totalPullRequestContributions,
     repos: cc.totalRepositoriesWithContributedCommits,
-    languages,
+    languages: previous?.languages ?? languages,
+    languagesFrom: previous ? previous.languagesFrom ?? previous.generatedAt : new Date().toISOString(),
   };
 }
 

@@ -24,10 +24,10 @@ jobs:
       - name: Render assets/activity-*.svg from the GitHub GraphQL API
         run: node scripts/activity.mjs
         env:
-          # ACTIVITY_TOKEN: a fine-grained PAT with read access to the private repos, so the
-          # language split covers everything. Without it the Actions token is used and the
-          # split covers public repos only; the contribution numbers are identical either way.
-          GH_TOKEN: ${{ secrets.ACTIVITY_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The Actions token sees public repos only, so the language split is kept from the last
+          # local run (node scripts/activity.mjs with gh logged in) instead of being recomputed.
+          KEEP_LANGUAGES: "1"
 
       - name: Commit when the card changed
         run: |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:54:17.312Z",
+  "generatedAt": "2026-09-17T15:20:57.422Z",
   "year": 4223,
   "last30": 506,
   "activeDays30": 28,
@@ -24,24 +24,25 @@
     149
   ],
   "weekStart": "2026-05-31",
-  "pullRequests": 81,
-  "repos": 10,
+  "pullRequests": 80,
+  "repos": 5,
   "languages": [
     {
       "name": "TypeScript",
-      "pct": 94
+      "pct": 78
     },
     {
       "name": "JavaScript",
-      "pct": 2
+      "pct": 14
     },
     {
       "name": "HTML",
-      "pct": 2
+      "pct": 5
     },
     {
       "name": "CSS",
-      "pct": 1
+      "pct": 2
     }
-  ]
+  ],
+  "languagesFrom": "2026-09-17T15:20:55.327Z"
 }
