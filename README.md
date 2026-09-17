@@ -1,24 +1,12 @@
-<a href="https://www.malt.fr/profile/georgesim"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. Supermalter, 5,0 sur 5 sur 11 avis, 30 projets, réponse en 2 h." src="assets/banner-light.svg" width="832">
-</picture></a>
+<a href="https://www.malt.fr/profile/georgesim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. Supermalter, 5,0 sur 5 sur 11 avis, 30 projets, réponse en 2 h." src="assets/banner-light.svg" width="832"></picture></a>
 
-<a href="https://www.malt.fr/profile/georgesim"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-malt-dark.svg">
-  <img alt="Voir le profil Malt" src="assets/btn-malt-light.svg" height="40">
-</picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg">
-  <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40">
-</picture></a>
+<a href="https://www.malt.fr/profile/georgesim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-malt-dark.svg"> <img alt="Voir le profil Malt" src="assets/btn-malt-light.svg" height="40"></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
 
 Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Ce profil ne montre que mes projets personnels, les missions clients passent par [Malt](https://www.malt.fr/profile/georgesim).
 
 ## En ce moment
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Activité GitHub des 12 derniers mois, mise à jour chaque semaine." src="assets/activity-light.svg" width="832">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"> <img alt="Activité GitHub des 12 derniers mois, mise à jour chaque semaine." src="assets/activity-light.svg" width="832"></picture>
 
 ## Projets personnels
 
@@ -37,10 +25,7 @@ Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en
 </tr>
 </table>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Stack : TypeScript, React, Next.js, Node.js, PostgreSQL, Supabase, Docker, Vercel" src="assets/stack-light.svg" width="832">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"> <img alt="Stack : TypeScript, React, Next.js, Node.js, PostgreSQL, Supabase, Docker, Vercel" src="assets/stack-light.svg" width="832"></picture>
 
 <table width="832">
 <tr>
