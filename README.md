@@ -1,8 +1,10 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets, 9 ans, réponse en 2 h." src="assets/banner-light.svg" width="832"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets livrés en freelance." src="assets/banner-light.svg" width="832"></picture>
 
-<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
+<a href="mailto:georgesimak@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-contact-dark.svg"> <img alt="Me contacter" src="assets/btn-contact-light.svg" height="40"></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
 
-Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Ce profil ne montre que mes projets personnels.
+Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Le travail client reste privé, ce qui est public ici est personnel.
+
+<sub>English-speaking clients welcome, I work in both languages.</sub>
 
 ## En ce moment
 
@@ -19,7 +21,7 @@ Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en
 </td>
 <td width="50%" valign="top">
 <a href="https://time-scroll-sand.vercel.app"><img alt="TimeScroll" src="assets/cover-timescroll.png" width="100%"></a>
-<b>TimeScroll</b> &nbsp;·&nbsp; <a href="https://time-scroll-sand.vercel.app">site</a><br>
+<b>TimeScroll</b> &nbsp;·&nbsp; <a href="https://time-scroll-sand.vercel.app">site</a> &nbsp;·&nbsp; <a href="https://github.com/gs-imak/time-scroll">code</a><br>
 <sub>Carte 3D interactive de l'histoire mondiale, navigation par époque.<br><code>React 19 · CesiumJS · Three.js · NestJS</code></sub>
 </td>
 </tr>
@@ -29,8 +31,8 @@ Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en
 
 <table width="832">
 <tr>
-<td width="33%" valign="top"><sub><b>LIVRAISON</b></sub><br>Fréquente, testable, une PR par tranche avec la preuve attachée.</td>
-<td width="33%" valign="top"><sub><b>CODE</b></sub><br>TypeScript de bout en bout, tests, CI/CD qui bloque.</td>
-<td width="33%" valign="top"><sub><b>CONTACT</b></sub><br><a href="https://www.linkedin.com/in/georgsima/">LinkedIn</a></td>
+<td width="33%" valign="top"><sub><b>LIVRAISON</b></sub><br>Des livraisons fréquentes que vous pouvez tester, dès la première semaine.</td>
+<td width="33%" valign="top"><sub><b>CODE</b></sub><br>TypeScript de bout en bout, testé, et une base que votre équipe reprend sans moi.</td>
+<td width="33%" valign="top"><sub><b>CONTACT</b></sub><br><a href="mailto:georgesimak@gmail.com">georgesimak@gmail.com</a><br><a href="https://www.linkedin.com/in/georgsima/">LinkedIn</a></td>
 </tr>
 </table>

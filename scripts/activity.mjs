@@ -107,7 +107,7 @@ export function render(d, theme) {
 
   // right: weekly bars
   const bx = 322, bw = W - 28 - bx, top = 24;
-  body += text(fonts.sans, `Commits par semaine, ${WEEKS} dernières semaines`, bx, top + 10, 12, { fill: theme.muted }).svg;
+  body += text(fonts.sans, `Contributions par semaine, ${WEEKS} dernières semaines`, bx, top + 10, 12, { fill: theme.muted }).svg;
   const max = Math.max(...d.weeks, 1);
   body += text(fonts.mono, `max ${max}`, W - 28, top + 10, 11, { fill: theme.muted, anchor: 'end' }).svg;
   const chartTop = top + 24, chartH = 84, gap = 6, colW = (bw - gap * (WEEKS - 1)) / WEEKS;

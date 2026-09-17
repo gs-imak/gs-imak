@@ -33,10 +33,8 @@ function banner(theme) {
   const chips = [
     { kind: 'stars', label: '5,0 sur 5', sub: '11 avis clients', hi: true },
     { kind: 'check', label: '30 projets', sub: 'livrés en freelance' },
-    { kind: 'medal', label: '9 ans', sub: 'front-end et back-end' },
-    { kind: 'bolt', label: 'Réponse en 2 h', sub: 'délai moyen' },
   ];
-  const gap = 10, cw = (744 - gap * 3) / 4, ch = 55, top = 212;
+  const gap = 10, cw = (744 - gap * (chips.length - 1)) / chips.length, ch = 55, top = 212;
   chips.forEach((c, i) => {
     const x = 44 + i * (cw + gap);
     body += rect(x + 0.5, top + 0.5, cw - 1, ch - 1, {
@@ -55,7 +53,7 @@ function banner(theme) {
     body += text(fonts.sans, c.sub, tx, top + 41, 11, { fill: theme.muted }).svg;
   });
 
-  return svgDoc(W, H, `<defs>${defs}</defs>${body}`, { title: 'Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets, 9 ans, réponse en 2 h.' });
+  return svgDoc(W, H, `<defs>${defs}</defs>${body}`, { title: 'Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets livrés en freelance.' });
 }
 
 // ---------------------------------------------------------------- buttons
@@ -97,7 +95,8 @@ function stack(theme) {
 
 for (const theme of Object.values(THEMES)) {
   write(`banner-${theme.name}.svg`, banner(theme));
-  write(`btn-linkedin-${theme.name}.svg`, button('LinkedIn', theme, 'primary'));
+  write(`btn-contact-${theme.name}.svg`, button('Me contacter', theme, 'primary'));
+  write(`btn-linkedin-${theme.name}.svg`, button('LinkedIn', theme, 'line'));
   write(`stack-${theme.name}.svg`, stack(theme));
 }
 console.log('assets written');
