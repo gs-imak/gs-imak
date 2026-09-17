@@ -26,14 +26,14 @@ function banner(theme) {
   // type block
   body += text(fonts.serif, 'Georges Simak', 44, 96, 66, { fill: theme.text }).svg;
   body += text(fonts.mono, 'DÉVELOPPEUR FULL STACK · REACT · NODE.JS · TYPESCRIPT', 44, 130, 13, { fill: ACCENT, letterSpacing: 2.2 }).svg;
-  body += text(fonts.sans, 'Paris · 100 % à distance · 9 ans de front-end et de back-end', 44, 157, 14, { fill: theme.muted }).svg;
+  body += text(fonts.sans, 'Paris · 100 % à distance · français et anglais', 44, 157, 14, { fill: theme.muted }).svg;
 
   // rule + credential chips
   body += `<path d="M44 190H788" stroke="${theme.rule}"/>`;
   const chips = [
-    { kind: 'medal', label: 'Supermalter', sub: 'statut Malt', hi: true },
-    { kind: 'stars', label: '5,0 sur 5', sub: '11 avis clients' },
-    { kind: 'check', label: '30 projets', sub: 'livrés via Malt' },
+    { kind: 'stars', label: '5,0 sur 5', sub: '11 avis clients', hi: true },
+    { kind: 'check', label: '30 projets', sub: 'livrés en freelance' },
+    { kind: 'medal', label: '9 ans', sub: 'front-end et back-end' },
     { kind: 'bolt', label: 'Réponse en 2 h', sub: 'délai moyen' },
   ];
   const gap = 10, cw = (744 - gap * 3) / 4, ch = 55, top = 212;
@@ -55,7 +55,7 @@ function banner(theme) {
     body += text(fonts.sans, c.sub, tx, top + 41, 11, { fill: theme.muted }).svg;
   });
 
-  return svgDoc(W, H, `<defs>${defs}</defs>${body}`, { title: 'Georges Simak, développeur full stack React, Node.js, TypeScript. Supermalter, 5,0 sur 5 sur 11 avis, 30 projets, réponse en 2 h.' });
+  return svgDoc(W, H, `<defs>${defs}</defs>${body}`, { title: 'Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets, 9 ans, réponse en 2 h.' });
 }
 
 // ---------------------------------------------------------------- buttons
@@ -97,8 +97,7 @@ function stack(theme) {
 
 for (const theme of Object.values(THEMES)) {
   write(`banner-${theme.name}.svg`, banner(theme));
-  write(`btn-malt-${theme.name}.svg`, button('Voir le profil Malt', theme, 'primary'));
-  write(`btn-linkedin-${theme.name}.svg`, button('LinkedIn', theme, 'line'));
+  write(`btn-linkedin-${theme.name}.svg`, button('LinkedIn', theme, 'primary'));
   write(`stack-${theme.name}.svg`, stack(theme));
 }
 console.log('assets written');

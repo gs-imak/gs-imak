@@ -1,8 +1,8 @@
-<a href="https://www.malt.fr/profile/georgesim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. Supermalter, 5,0 sur 5 sur 11 avis, 30 projets, réponse en 2 h." src="assets/banner-light.svg" width="832"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets, 9 ans, réponse en 2 h." src="assets/banner-light.svg" width="832"></picture>
 
-<a href="https://www.malt.fr/profile/georgesim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-malt-dark.svg"> <img alt="Voir le profil Malt" src="assets/btn-malt-light.svg" height="40"></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
+<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
 
-Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Ce profil ne montre que mes projets personnels, les missions clients passent par [Malt](https://www.malt.fr/profile/georgesim).
+Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Ce profil ne montre que mes projets personnels.
 
 ## En ce moment
 
@@ -31,6 +31,6 @@ Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en
 <tr>
 <td width="33%" valign="top"><sub><b>LIVRAISON</b></sub><br>Fréquente, testable, une PR par tranche avec la preuve attachée.</td>
 <td width="33%" valign="top"><sub><b>CODE</b></sub><br>TypeScript de bout en bout, tests, CI/CD qui bloque.</td>
-<td width="33%" valign="top"><sub><b>CONTACT</b></sub><br><a href="https://www.malt.fr/profile/georgesim">Malt</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/georgsima/">LinkedIn</a></td>
+<td width="33%" valign="top"><sub><b>CONTACT</b></sub><br><a href="https://www.linkedin.com/in/georgsima/">LinkedIn</a></td>
 </tr>
 </table>
