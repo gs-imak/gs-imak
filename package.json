@@ -1,0 +1,12 @@
+{
+  "name": "gs-imak-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-assets.mjs",
+    "activity": "node scripts/activity.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "^1.3.4"
+  }
+}
