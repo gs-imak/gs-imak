@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript. 5,0 sur 5 sur 11 avis clients, 30 projets livrés en freelance." src="assets/banner-light.svg" width="832"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript." src="assets/banner-light.svg" width="832"></picture>
 
 <a href="mailto:georgesimak@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-contact-dark.svg"> <img alt="Me contacter" src="assets/btn-contact-light.svg" height="40"></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
 
