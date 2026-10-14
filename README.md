@@ -1,11 +1,3 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"> <img alt="Georges Simak, développeur full stack React, Node.js, TypeScript." src="assets/banner-light.svg" width="832"></picture>
-
-<a href="mailto:georgesimak@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-contact-dark.svg"> <img alt="Me contacter" src="assets/btn-contact-light.svg" height="40"></picture></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/georgsima/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"> <img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="40"></picture></a>
-
-Je conçois et livre des applications web complètes, du MVP jusqu'à la mise en production. Front React / Next.js / TypeScript, APIs Node.js sécurisées sur PostgreSQL, intégration d'IA (LLM, voix, RAG) dans des produits neufs ou existants. Le travail client reste privé, ce qui est public ici est personnel.
-
-<sub>English-speaking clients welcome, I work in both languages.</sub>
-
 ## En ce moment
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"> <img alt="Activité GitHub des 12 derniers mois, mise à jour chaque semaine." src="assets/activity-light.svg" width="832"></picture>
